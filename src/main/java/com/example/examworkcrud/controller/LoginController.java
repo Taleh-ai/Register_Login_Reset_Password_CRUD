@@ -1,2 +1,4 @@
-package com.example.examworkcrud.controller;public class LoginController {
+package com.example.examworkcrud.controller;
+
+public class LoginController {
 }
