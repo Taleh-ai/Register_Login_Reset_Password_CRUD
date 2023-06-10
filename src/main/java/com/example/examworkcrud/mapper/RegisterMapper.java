@@ -13,7 +13,8 @@ public class RegisterMapper {
         UserRegisterEntity entity = new UserRegisterEntity();
         entity.setEmail(dto.getEmail());
         entity.setPassword(dto.getPassword());
-        entity.setUserName(dto.getUserName());
+        entity.setUsername(dto.getUsername());
+        entity.setRole(dto.getRole());
         return entity;
     }
 
@@ -21,7 +22,8 @@ public class RegisterMapper {
         RegisterDto dto = new RegisterDto();
         dto.setEmail(entity.getEmail());
         dto.setPassword(entity.getPassword());
-        dto.setUserName(entity.getUserName());
+        dto.setUsername(entity.getUsername());
+        dto.setRole(entity.getRole());
         return dto;
     }
 }
